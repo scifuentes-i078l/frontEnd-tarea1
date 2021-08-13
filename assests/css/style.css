@@ -224,3 +224,16 @@ padding: 0px 5px;
 .product-sec1 {
     box-shadow: 0px 0px 15px 0px #D6D6D6;
 }
+
+
+#contenido a img:hover{
+    height: 178;
+}
+#contenido a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#contenido a:hover{
+    color: #000;
+}
