@@ -68,8 +68,9 @@ footer a{
 }
 
 #menu ul li:hover a {
-     /*color: #000;*/
-     font-size: 14px;
+     /*color: blue;*/
+     font-weight: bold;
+     /*font-size: 14px;*/
     
     /* font-weight: bold;*/
 }
@@ -242,4 +243,85 @@ padding: 0px 5px;
 
 .texto1 {
     color:#fff;
+}
+
+.verticalLine {
+    border-left: thick solid #ff0000;
+}
+
+#menuVertical td{
+    padding: 10px;
+
+}
+
+#menuVertical ul li a{
+    text-decoration: none;
+    color:black;
+
+}
+
+#menuVertical ul {
+    list-style: none;
+
+}
+
+#menuVerticalColumna {
+    
+vertical-align:top ;
+
+}
+
+#menuVertical ul li:hover a {
+    /*color: #000;*/
+    
+    color:blue; 
+   /* font-weight: bold;*/
+}
+.btn {
+    display: inline-block;
+}
+
+.snipcart-details {
+    width: 77%;
+    margin: 0 auto;
+}
+
+.btn-danger.my-cart-btn:focus {
+    outline: none;
+}
+
+.snipcart-details input.button {
+    font-size: 13px;
+    color: #fff;
+    background: #EFEFEF;
+    text-decoration: none;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 13px;
+    outline: none;
+    letter-spacing: 1px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.45);
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.snipcart-details input.button:hover {
+    background: #000;
+}
+
+.w3view-cart {
+    font-size: 17px;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    color:white;
+    background: black;
 }
