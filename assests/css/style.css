@@ -325,3 +325,8 @@ vertical-align:top ;
     color:white;
     background: black;
 }
+
+.selector {
+    border: 3px solid blue;
+}
+
